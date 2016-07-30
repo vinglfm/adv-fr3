@@ -1,1 +1,1 @@
-Adv-fr project
+Advanced front end course project
