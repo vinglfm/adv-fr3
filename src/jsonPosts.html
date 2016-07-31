@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+  <title>Homework #1</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div id="posts-json">
+  </div>
+
+  <div id="posts-table">
+  </div>
+
+  <script type="text/x-handlebars-template" id="posts-json-template">
+    {{json posts}}
+  </script>
+
+  <script type="text/x-handlebars-template" id="posts-table-template">
+    {{#table posts}}
+      {{#if show}}
+      <div class="table_row {{#if even}}table_row_filled{{/if}}">
+        {{description}}
+      </div>
+      {{/if}}
+    {{/table}}
+  </script>
+
+  <script src="/libs/jquery/dist/jquery.min.js"></script>
+  <script src="/libs/handlebars/handlebars.min.js"></script>
+  <script src="/data.js"></script>
+  <script src="/jsonPosts.js"></script>
+</body>
