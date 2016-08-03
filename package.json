@@ -1,0 +1,11 @@
+{
+  "name": "adv-fr3",
+  "version": "1.0.0",
+  "description": "Advanced front end homework",
+  "dependencies": {
+    "express": "^4.14.0",
+    "gulp": "^3.x.x",
+    "gulp-clean": "^0.x.x",
+    "run-sequence": "^1.x.x"
+  }
+}
